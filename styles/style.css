@@ -1,9 +1,10 @@
 @media (max-width: 768px) {
-    .header {display: none;}
+    .header__navigation {display: none;}
   }
-@media (max-width: 1280px) {
-    .contact_info {margin: 3rem 7rem;}
-  } 
+  @media (max-width: 1136px) {
+    .header__information, .provide, .provide__shapes, .feature__products, .templates, .examples, .mark-waugh, .mark-waugh_photo, .design, .send, .get-in-touch-wrapper, .black-place {flex-wrap: wrap;} 
+    .contact_info {margin: 3rem 7rem;} 
+}
 body{margin:0}*{box-sizing:border-box}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}:focus{outline:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration{-webkit-appearance:none;-moz-appearance:none}input[type=search]{-webkit-appearance:none;-moz-appearance:none;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}textarea{overflow:auto;vertical-align:top;resize:vertical}audio,canvas,video{display:inline-block;max-width:100%}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a:focus{outline:thin dotted}a:active,a:hover{outline:0}img{border:0;-ms-interpolation-mode:bicubic}figure{margin:0}form{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}button,html,input,select,textarea{color:#222}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}
 html{
     font-size: calc(11px + 0.57vw);/*Шрифт 20 px*/
@@ -50,7 +51,7 @@ html{
 
 .header__information{
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-between;
     margin-top: 5.4rem;
 }
@@ -92,7 +93,7 @@ html{
     background-color: #c4c0b1;
 }
 .header__treangle-border{
-    padding: 1rem 0rem 0.84rem 1.6rem;
+    padding: 1rem 0rem 0.84rem 1.84rem;
     border: 0.26rem solid #f3f2ef;
     border-radius: 50%;
 }
@@ -106,7 +107,7 @@ html{
 .provide{
     display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     margin: 5.65rem 7rem;
 }
 
@@ -146,7 +147,7 @@ html{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     width: 28rem;
 }
 .provide__block-left{
@@ -209,7 +210,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 h2{
     font-family: 'Open Sans', sans-serif;
@@ -242,7 +243,7 @@ h2{
 .templates{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     margin-bottom: 3.19rem;
 }
 .templates a{
@@ -255,9 +256,6 @@ h2{
     color: #737373;
 }
 .templates a:hover{
-    color: #000000;
-}
-.templates .feature__all{
     color: #ff2d2d;
 }
 .examples{
@@ -341,7 +339,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 .big-picture-place{
     padding: 11.48rem 8.05rem ;
@@ -383,7 +381,7 @@ h3{
 .mark-waugh_photo{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 .picture-small{
     position: relative;
@@ -433,8 +431,11 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: #f5f0dd;
+    /*flex-wrap: wrap;*/
+    /*background-color: #f5f0dd;*/
+    background: url(../image/design/lasy_fox.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; 
     padding-bottom: 7.1rem;
 }
 .design h2{
@@ -452,7 +453,7 @@ h3{
 }
 .send{
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 .send__email{
     padding: 1.3rem 18.5rem 1.2rem 1.85rem;
@@ -478,7 +479,7 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     padding-bottom: 5.3rem;
 }
 
@@ -571,7 +572,7 @@ h4{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     padding: 2.4rem 8.4rem 1.55rem 8.2rem;
     background-color: #313030;
 }
@@ -591,22 +592,22 @@ h4{
     margin-left: 0.9rem;
 }
 .icon_twi{
-    background: url(../image/icons/twitter.png) no-repeat;
+    background: url(../image/icons/twitter-2-xl.png) no-repeat;
     background-size: cover;
     background-position: center; 
 }
 .icon_lin{
-    background: url(../image/icons/linkedin.png) no-repeat;
+    background: url(../image/icons/linkedin-4-xl.png) no-repeat;
     background-size: cover;
     background-position: center; 
 }
 .icon_goog{
-    background: url(../image/icons/social-media.png) no-repeat;
+    background: url(../image/icons/google-plus-4-xl.png) no-repeat;
     background-size: cover;
     background-position: center; 
 }
 .icon_face{
-    background: url(../image/icons/facebook.png) no-repeat;
+    background: url(../image/icons/facebook-3-xl.png) no-repeat;
     background-size: cover;
     background-position: center; 
 }
